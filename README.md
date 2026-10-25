@@ -66,13 +66,13 @@ Stop the monitor with `Ctrl+C` - it prints a summary of how long it watched and 
 ## Demo
 
 ### Build and create a baseline
-![Build and init](01_build_and_init.png)
+![Build and init](https://github.com/hadhiabdulla/unix-file-integrity-monitor/releases/download/v1.0/01_build_and_init.png)
 
 ### Live alerts when files are tampered with
-![Live alerts](02_live_alerts.png)
+![Live alerts](https://github.com/hadhiabdulla/unix-file-integrity-monitor/releases/download/v1.0/02_live_alerts.png)
 
 ### Daemon mode and scripted integrity check
-![Daemon and check](03_daemon_and_check.png)
+![Daemon and check](https://github.com/hadhiabdulla/unix-file-integrity-monitor/releases/download/v1.0/03_daemon_and_check.png)
 
 ## How it works
 
@@ -88,8 +88,9 @@ Stop the monitor with `Ctrl+C` - it prints a summary of how long it watched and 
 
 ```
 unix-file-integrity-monitor/
-├── fim.c                     # complete source (monitor + SHA-256, single file)
-├── Makefile                  # build with `make`
-├── README.md
-└── 01/02/03_*.png            # screenshots - proof of it running
+├── fim.c       # complete source (monitor + SHA-256, single file)
+├── Makefile    # build with `make`
+└── README.md
 ```
+
+(Demo screenshots above are attached to the [v1.0 release](https://github.com/hadhiabdulla/unix-file-integrity-monitor/releases/tag/v1.0).)
